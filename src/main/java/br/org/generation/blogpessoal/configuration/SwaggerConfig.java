@@ -1,4 +1,3 @@
-
 package  br.org.generation.blogpessoal.configuration;
 
 import  java.util.ArrayList;
