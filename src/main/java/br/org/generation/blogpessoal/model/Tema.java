@@ -24,7 +24,7 @@ public class Tema{
 		@NotNull(message = "O atributo Descrição deve ser obrigatório")
 		private String descricao;
 		
-		@OneToMany(mappedBy = "tema", cascade = CascadeType.PERSIST)
+		@OneToMany(mappedBy = "tema", cascade = CascadeType.ALL)
 		@JsonIgnoreProperties("tema")
 		private List<Postagem> postagem;
 		
